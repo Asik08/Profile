@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <style>
+        .container{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            font-family: Verdana, sans-serif;
+        }
+        .leftPanel{
+            background-color: rgb(249, 140, 121);
+            color: azure;
+            padding: 10px;
+            width: 30%;
+            height: auto;
+        }
+        h2{
+            background-color: rgb(199, 112, 97);
+            width: 100%;
+        }
+        .rightPanel{
+            padding-left: 10px;
+            width: 70%;
+            height: 100%;
+            font-size: 18px;
+        }
+        .contact p,.skills p{
+            padding: 0 0 1px 5px;
+        }
+        .contact, .skills{
+            padding: 2px 0 2px 0;
+        }
+        .sub{
+            padding-left: 5%;
+        }
+        .certify, .edu{
+            padding-left: 3%;
+        }
+        h3{
+            color: rgb(249, 140, 121);
+        }
+        @media (max-width: 600px) {
+            .leftPanel {
+                font-size: 14px;
+            }
+
+            .rightPanel {
+                font-size: 14px;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 1200px) {
+            .leftPanel {
+                font-size: 16px;
+            }
+
+            .rightPanel {
+                font-size: 16px;
+            }
+        }
+        .contact p:last-child {
+            word-break: break-word;
+        }
+        .icon{
+            font-size: 200%;
+            cursor: pointer;
+            padding-left: 4%;
+        }
+        .icon:visited{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="container" id="containerId">
+    <div class="leftPanel" id="leftPanelId">
+        <h1>Mohamed Asik</h1>
+        <div class="contact">
+            <h2>Contact</h2>
+            <p><b>Address</b></p>
+            <p>Kanyakumari, TamilNadu, Pincode: 629002</p>
+            <p><b>Phone</b></p>
+            <p>6382146311</p>
+            <p><b>Email</b></p>
+            <p>mohamedashik027@gmail.com</p>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <p>C</p>
+            <p>SQL</p>
+            <p>Ethical Hacking</p>
+        </div>
+        <div class="skills">
+            <h2>Personal Strength</h2>
+            <p>Flexible</p>
+            <p>Team worker</p>
+        </div>
+    </div>
+
+    <div class="rightPanel" id="rightPanelId">
+        <p>To be associated with a progressive organization that would give me scope to update my knowledge, skill and experience in
+            accordance with latest trends and to be a leader, who is able to work in a team environment and achieve long and short-term
+            goals.</p>
+
+        <h3>Education</h3>
+        <div class="edu">
+            <p>Carmel Higher Seconday School, Nagercoil</p>
+            <p class="sub">SSC (10th) Percentage: 91.2%, Year: 2019</p>
+            <p>Carmel Higher Seconday School, Nagercoil</p>
+            <p class="sub">HSC (12th)  Percentage: 89.9%, Year: 2021</p>
+            <p>University College of Engineering, Villupuram</p>
+            <p class="sub">B.E ,IV Year(Computer Science and Engineering)  CGPA: 7.8</p>
+        </div>
+
+        <h3>Certifications</h3>
+        <div class="certify">
+            <p>Ethical Hacking NPTEL Certification (Percentage: 84%)</p>
+        </div>
+
+        <h3>Conference</h3>
+        <div class="certify">
+            <p>International Debian Conference, January 2023</p>
+        </div>
+
+        <h3>Achievements</h3>
+        <div class="certify">
+            <p>Public Speaking: Best Speaker Award, Project Punch(2023)</p>
+        </div>
+
+        <h3>Social</h3>
+
+        <a href="https://www.linkedin.com/in/mohamed-asik-82588527b/" class="icon" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        
+        <a href="https://www.hackerrank.com/mohamedashik027?hr_r=1" class="icon" target="_blank">
+            <i class="fab fab fa-hackerrank"></i>
+        </a>
+        
+    </div>
+
+</div>
+</body>
+</html>
